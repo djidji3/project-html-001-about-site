@@ -1,0 +1,221 @@
+/* google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+
+/* minden oldal */
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-header {
+    font-family: 'Merienda One', cursive;
+    background: rgb(39, 37, 37);
+    color: white;
+    font-size: 26px;
+    margin-bottom: 30px;
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+}
+
+footer {
+    background: rgb(87, 84, 84);
+    color: white;
+    text-align: right;
+}
+
+footer.inner section span button {
+    text-align: center;
+}
+
+.top-span {
+    text-align: right;
+}
+
+h2 {
+    margin: 20px;
+}
+
+ul {
+    margin-left: 30px;
+}
+
+ol {
+    margin-left: 30px;
+}
+
+section h3,
+section h3 p a {
+    /*  */
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 12px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+
+/* 
+ez nem tudom mi?????
+.bemutatkozoKepek {
+    height: 100px;
+    width: 100px;
+}
+ */
+
+a.nav-link {
+    background-color: #444444;
+    color: white;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+div.inner-footer {
+    background: linear-gradient(to bottom, #d6d4da 10%, black 100%);
+}
+
+.sorban {
+    display: inline;
+}
+
+
+/* fo oldal elemei */
+
+.fooldal-h1 {
+    text-align: center;
+}
+
+#p1 {
+    margin-left: 30px;
+}
+
+.banner1,
+.banner2 {
+    width: 120%;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.sections {
+    margin-top: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.tulajdonsag-ossz {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.magamrol {
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.magamrol-p {
+    margin-left: 10px;
+    margin-right: 30px;
+}
+
+ul.links {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.jotulajdonsag {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
+
+/* works oldal */
+
+.magamrol {
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.magamrol-p {
+    margin-left: 10px;
+    margin-right: 30px;
+}
+
+.munkak-div {
+    border: 3px solid #6b3d72;
+    border-radius: 20px;
+    padding: 1px;
+    margin: 2px;
+    height: 520px;
+}
+
+.kep {
+    float: left;
+    min-height: auto;
+    margin: 20px;
+    vertical-align: text-bottom;
+}
+
+
+/* gallery oldal */
+
+.gallery {
+    margin: 70px;
+}
+
+.gallery img {
+    width: 220px;
+    margin: 1px auto;
+    box-shadow: 3 3 9px rgb(89, 87, 107);
+    /* vmi felulirja de nem tudom mi ????? */
+}
+
+
+/* about oldal */
+
+.urlap-div {
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin: 20px;
+}
+
+input#uzenet {
+    height: 100px;
+}
+
+.magamrol {
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 120px;
+}
+
+.magamrol-p {
+    margin-left: 10px;
+    margin-right: 30px;
+}
+
+.hosszu-bemutatkozas {
+    margin: 20px;
+}
+
+.arckep {
+    float: left;
+    width: 130px;
+    margin: 10px;
+    margin-right: 20px;
+}
