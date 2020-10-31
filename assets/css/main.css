@@ -2,19 +2,23 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
-
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 /* minden oldal */
 
 html {
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    background-color: #dfd9e0;
+}
+
 .main-header {
     font-family: 'Merienda One', cursive;
-    background: rgb(39, 37, 37);
+    background: linear-gradient(to top, #d6d4da 10%, black 100%);
     color: white;
     font-size: 26px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     position: fixed;
     width: 100%;
     left: 0px;
@@ -57,15 +61,6 @@ section h3 p a {
     padding-bottom: 20px;
 }
 
-
-/* 
-ez nem tudom mi?????
-.bemutatkozoKepek {
-    height: 100px;
-    width: 100px;
-}
- */
-
 a.nav-link {
     background-color: #444444;
     color: white;
@@ -96,7 +91,7 @@ div.inner-footer {
 
 .banner1,
 .banner2 {
-    width: 120%;
+    width: 100%;
     display: inline-block;
     margin-top: 20px;
 }
@@ -135,6 +130,19 @@ ul.links {
     width: 200px;
     height: 200px;
     display: inline-block;
+    text-align: justify;
+    margin-left: 80px;
+}
+
+.jotulajdonsag h3 {
+    color: rgb(27, 19, 54);
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.tulajdonsagok-csoport {
+    margin: 5%;
+    align-items: center;
 }
 
 
@@ -176,8 +184,12 @@ ul.links {
 .gallery img {
     width: 220px;
     margin: 1px auto;
-    box-shadow: 3px 3px 9px rgb(39, 34, 77);
+    box-shadow: 3px 3px 9px rgb(37, 37, 95);
     /* vmi felulirja de nem tudom mi ????? */
+}
+
+.galeria-hatter {
+    background-color: rgb(212, 206, 216);
 }
 
 
@@ -218,4 +230,12 @@ input#uzenet {
     width: 130px;
     margin: 10px;
     margin-right: 20px;
+}
+
+section li {
+    margin-left: 60px;
+}
+
+.kapcsolatfelvetel-form {
+    margin: 60px;
 }

@@ -8,6 +8,8 @@
     <meta name="author" content="NG">
     <title>About</title>
     <link rel="stylesheet" href="/assets/css/main.css">
+    <!-- goole icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
@@ -83,28 +85,31 @@
 
 
         <h2 class="magamrol">Kapcsolatfelvétel</h2>
-        <form>
-            <div class="urlap-div">
-                <div class="form-group">
-                    <label for="nev">Név</label> <br>
-                    <input name="nev" required type="text" class="form-control" id="nev" placeholder="neved" minlength="5">
+        <form class="kapcsolatfelvetel-form">
+            <fieldset>
+                <legend>Kitöltendő adatok</legend>
+                <div class="urlap-div">
+                    <div class="form-group">
+                        <label for="nev">Név</label> <br>
+                        <input name="nev" required type="text" class="form-control" id="nev" placeholder="neved" minlength="5">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email cím</label><br>
+                        <input name="email" type="email" required class="form-control" id="email" placeholder="email címed" minlength="6" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                    </div>
+
+                    <div class="form-group uzenet">
+                        <label for="uzenet">Üzenet</label><br>
+                        <input type="text" name="uzenet" id="uzenet" minlength="20" placeholder="az üzenet szövege">
+                    </div>
+
+                    <div class="form-group">
+                        <button class="submit-btn">Elküldés</button><br>
+                    </div>
                 </div>
 
-                <div class="form-group">
-                    <label for="email">Email cím</label><br>
-                    <input name="email" type="email" required class="form-control" id="email" placeholder="email címed" minlength="6" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
-                </div>
-
-                <div class="form-group uzenet">
-                    <label for="uzenet">Üzenet</label><br>
-                    <input type="text" name="uzenet" id="uzenet" minlength="20" placeholder="az üzenet szövege">
-                </div>
-
-                <div class="form-group">
-                    <button class="submit-btn">Elküldés</button><br>
-                </div>
-            </div>
-
+            </fieldset>
         </form>
 
 
@@ -116,7 +121,7 @@
         <div class="inner-footer">
             <section>
                 <span>
-                    <button > <a class="top-span" href="#"></a>Ugrás az oldal tetejére</button>
+                    <button><span title="Go top" class="material-icons">arrow_circle_up </span></button>
                 </span>
 
                 <h3 class="goTop">
