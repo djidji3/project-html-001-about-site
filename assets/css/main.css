@@ -186,9 +186,9 @@ ul.links {
 
 .gallery img {
     width: 220px;
+    max-width: 33.33%;
     margin: 1px auto;
     box-shadow: 3px 3px 9px rgb(37, 37, 95);
-    /* vmi felulirja de nem tudom mi ????? */
 }
 
 .galeria-hatter {
